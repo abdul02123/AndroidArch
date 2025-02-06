@@ -36,9 +36,7 @@ class ProductActivity : AppCompatActivity() {
                 }
 
                 is Resource.Loading -> {
-
                     binding.progressBar.visibility = View.VISIBLE
-
                 }
 
                 else -> {}
